@@ -1,0 +1,21 @@
+{
+  "name": "google-wavenet",
+  "version": "1.0.0",
+  "description": "Convert text to google wavenet speech, on the fly",
+  "author": "tinkr <tinkr.simpson@gmail.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "lib": "^4.0.2",
+    "fs": "^0.0.1-security"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "tinkr/google-wavenet",
+    "timeout": 10000,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}

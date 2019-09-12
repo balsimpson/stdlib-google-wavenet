@@ -1,0 +1,6 @@
+{
+  "name": "tinkr/google-wavenet",
+  "version": "1.0.0",
+  "publish": true,
+  "description": "Convert text to google wavenet speech, on the fly"
+}
