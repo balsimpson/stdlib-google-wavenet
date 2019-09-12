@@ -14,7 +14,11 @@
     "name": "tinkr/google-wavenet",
     "timeout": 10000,
     "personalize": {
-      "keys": [],
+      "keys": [
+        {
+          "dev": "some value"
+        }
+      ],
       "user": []
     }
   }
