@@ -16,7 +16,9 @@
     "personalize": {
       "keys": [
         {
-          "dev": "some value"
+          "dev": {
+            "GOOGLE_WAVENET_KEY": "YOUR GOOGLE SPEECH API KEY"
+          }
         }
       ],
       "user": []
