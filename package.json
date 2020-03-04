@@ -8,18 +8,5 @@
     "lib": "^4.0.2",
     "fs": "^0.0.1-security"
   },
-  "private": true,
-  "stdlib": {
-    "build": "faaslang",
-    "name": "tinkr/google-wavenet",
-    "timeout": 10000,
-    "personalize": {
-      "keys": [
-        {
-          "GOOGLE_WAVENET_KEY":  "YOUR GOOGLE SPEECH API KEY"
-        }
-      ],
-      "user": []
-    }
-  }
+  "private": true
 }
